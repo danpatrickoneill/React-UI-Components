@@ -2,4 +2,10 @@ body {
   margin: 0;
   padding: 0.4rem;
   font-family: sans-serif;
+  font-size: 14px;
+  background: black;
+}
+
+* {
+  box-sizing: border-box;
 }
