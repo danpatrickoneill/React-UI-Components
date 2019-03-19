@@ -1,0 +1,10 @@
+.calc-display {
+  background: black;
+  color: white;
+  grid-column: 1 / 5;
+  text-align: right;
+  vertical-align: middle;
+  line-height: 150px;
+  font-size: 72px;
+  border: 1px solid gray;
+}
