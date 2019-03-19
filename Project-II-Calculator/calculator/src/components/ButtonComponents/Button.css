@@ -1,0 +1,84 @@
+.btn {
+  background: white;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px;
+  font-size: 48px;
+  font-weight: bold;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+
+/* Function buttons here */
+.clear-btn {
+  grid-row: 2 / 3;
+  grid-column: 1 / 4;
+  font-weight: normal;
+}
+
+.divide-btn {
+  background: darkred;
+  color: white;
+  grid-row: 2 / 3;
+  grid-column: 4 / 5;
+}
+
+.divide-btn:hover {
+  background: white;
+  color: darkred;
+}
+
+.multiply-btn {
+  background: darkred;
+  color: white;
+  grid-row: 3 / 4;
+  grid-column: 4 / 5;
+}
+
+.multiply-btn:hover {
+  background: white;
+  color: darkred;
+}
+
+.subtract-btn {
+  background: darkred;
+  color: white;
+  grid-row: 4 / 5;
+  grid-column: 4 / 5;
+}
+
+.subtract-btn:hover {
+  background: white;
+  color: darkred;
+}
+
+.add-btn {
+  background: darkred;
+  color: white;
+  grid-row: 5 / 6;
+  grid-column: 4 / 5;
+}
+
+.add-btn:hover {
+  background: white;
+  color: darkred;
+}
+
+.equals-btn {
+  background: darkred;
+  color: white;
+  grid-row: 6 / 7;
+  grid-column: 4 / 5;
+}
+
+.equals-btn:hover {
+  background: white;
+  color: darkred;
+}
+
+/* Number buttons here */
+
+.zero-btn {
+  grid-row: 6 / 7;
+  grid-column: 1 / 4;
+}

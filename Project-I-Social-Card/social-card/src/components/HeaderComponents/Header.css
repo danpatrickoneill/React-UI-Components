@@ -1,1 +1,49 @@
 /* All styles for your header Components live here */
+header img {
+  height: 50px;
+  width: 50px;
+  padding: 5px;
+  background: black;
+  border-radius: 50%;
+}
+
+header strong {
+  /* display: block; */
+}
+header p {
+}
+
+.header-container {
+  width: 590px;
+  display: flex;
+}
+
+.header-title {
+  display: flex;
+  justify-content: flex-start;
+  line-height: 1;
+}
+
+.header-title :first-child {
+  margin-left: 20px;
+  font-weight: bold;
+  color: black;
+  font-size: 14px;
+}
+
+.header-title p {
+  margin-left: 10px;
+  margin-top: 0px;
+  font-size: 13px;
+  color: gray;
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.header-text > p {
+  margin: 0 20px 10px;
+}

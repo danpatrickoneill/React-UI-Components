@@ -1,0 +1,9 @@
+.calc-container {
+  width: 500px;
+  margin: 50px 250px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1.5fr 1fr 1fr 1fr 1fr 1fr;
+  background: aqua;
+  border: 1px solid black;
+}
