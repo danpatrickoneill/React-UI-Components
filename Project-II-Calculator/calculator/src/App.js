@@ -18,7 +18,11 @@ const App = () => {
       <ActionButton buttonStyle="btn add-btn" text="+" />
       <ActionButton buttonStyle="btn equals-btn" text="=" />
       {numbers.map(number => (
-        <NumberButton buttonStyle="btn" text={number} />
+        <NumberButton
+          key={number.toString() + "button"}
+          buttonStyle="btn"
+          text={number}
+        />
       ))}
       {/* <NumberButton buttonStyle="btn" text="1" />
       <NumberButton buttonStyle="btn" text="2" />

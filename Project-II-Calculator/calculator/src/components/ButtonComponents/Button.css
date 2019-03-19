@@ -6,6 +6,7 @@
   font-size: 48px;
   font-weight: bold;
   border: 1px solid gray;
+  cursor: pointer;
 }
 
 /* Function buttons here */
@@ -22,11 +23,21 @@
   grid-column: 4 / 5;
 }
 
+.divide-btn:hover {
+  background: white;
+  color: darkred;
+}
+
 .multiply-btn {
   background: darkred;
   color: white;
   grid-row: 3 / 4;
   grid-column: 4 / 5;
+}
+
+.multiply-btn:hover {
+  background: white;
+  color: darkred;
 }
 
 .subtract-btn {
@@ -36,6 +47,11 @@
   grid-column: 4 / 5;
 }
 
+.subtract-btn:hover {
+  background: white;
+  color: darkred;
+}
+
 .add-btn {
   background: darkred;
   color: white;
@@ -43,11 +59,21 @@
   grid-column: 4 / 5;
 }
 
+.add-btn:hover {
+  background: white;
+  color: darkred;
+}
+
 .equals-btn {
   background: darkred;
   color: white;
   grid-row: 6 / 7;
   grid-column: 4 / 5;
+}
+
+.equals-btn:hover {
+  background: white;
+  color: darkred;
 }
 
 /* Number buttons here */
