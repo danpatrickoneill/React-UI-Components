@@ -9,22 +9,22 @@ const App = () => {
     <div className="calc-container">
       <CalculatorDisplay />
 
-      <ActionButton className="btn clear-btn" symbol="clear" />
-      <ActionButton className="btn divide-btn" symbol="÷" />
-      <ActionButton className="btn multiply-btn" symbol="x" />
-      <ActionButton className="btn subtract-btn" symbol="-" />
-      <ActionButton className="btn add-btn" symbol="+" />
-      <ActionButton className="btn equals-btn" symbol="=" />
-      <NumberButton className="btn" number="1" />
-      <NumberButton className="btn" number="2" />
-      <NumberButton className="btn" number="3" />
-      <NumberButton className="btn" number="4" />
-      <NumberButton className="btn" number="5" />
-      <NumberButton className="btn" number="6" />
-      <NumberButton className="btn" number="7" />
-      <NumberButton className="btn" number="8" />
-      <NumberButton className="btn" number="9" />
-      <NumberButton className="btn zero-btn" number="0" />
+      <ActionButton buttonStyle="btn clear-btn" text="clear" />
+      <ActionButton buttonStyle="btn divide-btn" text="÷" />
+      <ActionButton buttonStyle="btn multiply-btn" text="x" />
+      <ActionButton buttonStyle="btn subtract-btn" text="-" />
+      <ActionButton buttonStyle="btn add-btn" text="+" />
+      <ActionButton buttonStyle="btn equals-btn" text="=" />
+      <NumberButton buttonStyle="btn" text="1" />
+      <NumberButton buttonStyle="btn" text="2" />
+      <NumberButton buttonStyle="btn" text="3" />
+      <NumberButton buttonStyle="btn" text="4" />
+      <NumberButton buttonStyle="btn" text="5" />
+      <NumberButton buttonStyle="btn" text="6" />
+      <NumberButton buttonStyle="btn" text="7" />
+      <NumberButton buttonStyle="btn" text="8" />
+      <NumberButton buttonStyle="btn" text="9" />
+      <ActionButton buttonStyle="btn zero-btn" text="0" />
     </div>
   );
 };
